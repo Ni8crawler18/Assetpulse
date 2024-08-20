@@ -16,7 +16,11 @@ AssetPulse is a platform that allows you to easily tokenize and fractionalize su
 First, clone the repository and install the necessary dependencies:
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/ni8crawler18/AssetPulse.git
+=======
+git clone https://github.com/Ni8crawler18/AssetPulse.git
+>>>>>>> 0d8e15e2fa0c799c5bc2cd9360ff906368305b8b
 cd AssetPulse
 npm install
 pip install -r requirements.txt
