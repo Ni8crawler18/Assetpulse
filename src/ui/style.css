@@ -5,6 +5,7 @@
     --content-background: #ffffff;
     --content-text: #000000;
     --font-family: 'Jost', sans-serif;
+    --background-image-url: 'src/ui/assets/background_image.avif';
 }
 
 body {
@@ -14,7 +15,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-image: url(src/ui/assets/background_image.avif);
+    background-image: var(--background-image-url);
+
 }
 
 .container {
