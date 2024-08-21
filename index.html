@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetPulse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">AssetPulse</a>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#create-project">Create Project</a>
+                <a href="#buy-tokens">Buy Tokens</a>
+                <button>Connect Wallet</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Build the Unimaginable</h1>
+                    <p>Tokenize your Sustainable Projects with Hedera Token Service. Towards a Green Future, one contract at a time.</p>
+                    <div class="cta-buttons">
+                        <button>Get Started</button>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-video">
+                    <video controls width = 300 height = 150>
+                        <source src="assets/hedera_tokenize.mp4" type="video/mp4">
+                    </video>
+                </div>                
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Create Your Green Project</h2>
+                <div class="forms-container">
+                    <section id="create-project">
+                        <h3>Create Project</h3>
+                        <form id="projectForm">
+                            <label for="name">Project Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="symbol">Token Symbol:</label>
+                            <input type="text" id="symbol" name="symbol" required>
+
+                            <label for="initialSupply">Initial Token Supply:</label>
+                            <input type="number" id="initialSupply" name="initialSupply" required>
+
+                            <label for="description">Project Description:</label>
+                            <textarea id="description" name="description" required></textarea>
+
+                            <button type="submit">Create Project</button>
+                        </form>
+                    </section>
+
+                    <section id="buy-tokens">
+                        <h3>Buy Tokens</h3>
+                        <form id="buyForm">
+                            <label for="tokenName">Token Name:</label>
+                            <input type="text" id="tokenName" name="tokenName" required>
+
+                            <label for="amount">Amount to Buy:</label>
+                            <input type="number" id="amount" name="amount" required>
+
+                            <label for="buyerAccountId">Your Account ID:</label>
+                            <input type="text" id="buyerAccountId" name="buyerAccountId" required>
+
+                            <button type="submit">Buy Tokens</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="content-section">
+            <div class="container">
+                <h2>Features</h2>
+                <ul>
+                    <li>Tokenize any green project with ease.</li>
+                    <li>Gain HGT (Hedera Green Tokens) and track project progress.</li>
+                    <li>AI-driven asset valuation to predict future values.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>AssetPulse was built by Venkatesh R. All rights reserved.</p>
+            <p>
+                Follow us on 
+                <a href="https://x.com/ni8crawler25">X</a>,
+                <a href="https://www.linkedin.com/in/ni8crawler18/">LinkedIn</a>, and
+                <a href="https://github.com/Ni8crawler18/Assetpulse">GitHub</a>.
+            </p>
+            <p><a href="mailto:ni8crawler12@gmail.com">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
